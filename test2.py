@@ -1,3 +1,9 @@
-name = "Levi" #The variable here calls a string Levi
-age = 25 #The variable here calls an integer
-is_student = True # The variable here calls a Boolean
+name = input("What is your name: ") #The variable here calls a string Levi
+age = int(input("What is your age: ")) #The variable here calls an integer
+
+if age <= 25:
+    is_student = True
+else:
+    is_student = False
+
+print(name, str(age), is_student)
