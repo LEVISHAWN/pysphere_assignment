@@ -3,15 +3,11 @@
 # I = Current (in amperes)
 # R = Resistance (in ohms)
 
-print("OHMs Law Execution for Levi")
-
-
-volts = input("Enter voltage: ")
-V = int(volts)
+volt = input("Enter voltage: ")
+V = int(volt)
 current = input("Enter current in amperes: ")
 I = int(current)
-R = float(input("enter resistivity in ohms: "))
+resistance = input("Enter resistivity in ohms: ")
+R = int(resistance)
 
 
-V = I * R
-print(V)

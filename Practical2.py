@@ -4,9 +4,9 @@
 #  from user and print the same data back to the user
 
 
-# data = input("Enter the blog information: ")
-# print(data)
+data = input("Enter the blog information: ")
+print(data)
 
-data = input("Enter your name: ")
-print("Welcome: ", +data)
+# data = input("Enter your name: ")
+# print("Welcome: ", +data)
 # print("Welcome: {data}")
